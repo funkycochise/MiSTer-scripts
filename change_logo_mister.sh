@@ -18,6 +18,9 @@
 # You can download the latest version of this script from:
 # https://github.com/nakuakaben/MiSTer-scripts
 
+# Version 1.0.1 - 2020-06-04 - new layout and some minor fixes
+# Version 1.0   - 2020-06-03 - First commit
+
 BASE_PATH="$HOME"
 MISTER_PATH="${BASE_PATH}/MiSTer/"
 
@@ -27,8 +30,11 @@ JAPAN_LOGO="japan.png"
 NO_LOGO="nologo.png"
 MY_LOGO="mylogo.png"
 
-# URL
-MISTER_URL="https://github.com/MiSTer-devel/"
+
+# ========= OPTIONS ==================
+URL="https://github.com"
+SCRIPT_URL="${URL}/nakuakaben/MiSTer-scripts/change_logo_mister.sh"
+MISTER_URL="${URL}/MiSTer-devel/"
 
 clear
 # ========= CODE STARTS HERE =========
