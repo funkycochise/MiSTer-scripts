@@ -21,12 +21,13 @@ Download package and unzip in the user folder:
 
   *Tips: it is much easier to use nologo and to integrate one into the creation of your each wallpapers.*
 
-**IMPORTANT**:
-You can launch the script by double clicking in graphic mode
-- `chmod +x Main_MiSTer.sh`
+**IMPORTANT**:  
+Give the execution rights to the script  
+  `chmod +ux change_logo_mister.sh` 
+  
+Run script  
+  `./change_logo_mister.sh`  
  
-
-
 **Requierement:**
 * Install the GCC, G++ cross compilers and support programs by typing:  
   `sudo apt-get install libc6-armel-cross libc6-dev-armel-cross binutils-arm-linux-gnueabi libncurses5-dev`  
