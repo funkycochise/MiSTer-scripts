@@ -33,7 +33,7 @@ MY_LOGO="mylogo.png"
 
 # ========= OPTIONS ==================
 URL="https://github.com"
-SCRIPT_URL="${URL}/nakuakaben/MiSTer-scripts/blob/master/change_logo_mister.sh"
+SCRIPT_URL="${URL}/nakuakaben/MiSTer-scripts/blob/master/clm_script.sh"
 MISTER_URL="${URL}/MiSTer-devel/"
 
 clear
