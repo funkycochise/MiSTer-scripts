@@ -23,7 +23,7 @@ Download package and unzip in the user folder:
 
 **IMPORTANT**:  
 Give the execution rights to the script  
-  `chmod +ux change_logo_mister.sh` 
+  `chmod +x change_logo_mister.sh` 
   
 Run script  
   `./change_logo_mister.sh`  
