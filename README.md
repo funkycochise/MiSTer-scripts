@@ -21,7 +21,7 @@ Download package and unzip in the user folder:
  ![alt COLOR](https://github.com/nakuakaben/MiSTer-scripts/blob/master/MiSTer/color.png "COLOR")  
  ![alt JAPAN](https://github.com/nakuakaben/MiSTer-scripts/blob/master/MiSTer/japan.png "JAPAN")
  - nologo.png , *blank*
- - mylogo.png ,  *if you want to make your own logo, rename your creation in mylogo.png
+ - mylogo.png ,  *if you want to make your own logo, rename your creation in mylogo.png*
 
   *Tips: it is much easier to use nologo and to integrate one into the creation of your each wallpapers.*
 
