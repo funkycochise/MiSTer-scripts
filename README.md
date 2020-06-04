@@ -15,7 +15,8 @@ https://youtu.be/L4d5K-uX-3M
 
 Download package and unzip in the user folder:   
   
-* clm_script.sh
+* clm_script.sh  ; *main script*  
+* updater_clm.sh ; *updater for main script*  
 * Folder with the different logos, thank terminator2k2 for color and japan  
  ![alt COLOR](https://github.com/nakuakaben/MiSTer-scripts/blob/master/MiSTer/color.png "COLOR")  
  ![alt JAPAN](https://github.com/nakuakaben/MiSTer-scripts/blob/master/MiSTer/japan.png "JAPAN")
@@ -26,10 +27,10 @@ Download package and unzip in the user folder:
 
 **IMPORTANT**:  
 Give the execution rights to the script  
-  `chmod +x clm_script.sh` 
+  `chmod +x updater_clm.sh`  
   
 Run script  
-  `./clm_script.sh`  
+  `./updater_clm.sh`  
  
 **Requierement:**
 * Install the GCC, G++ cross compilers and support programs by typing:  
