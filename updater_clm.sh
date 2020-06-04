@@ -35,9 +35,9 @@ SCRIPT_URL="https://raw.githubusercontent.com/nakuakaben/MiSTer-scripts/master/c
 #========= CODE STARTS HERE =========
 clear
 
-CLM="CLM_script
+CLM="CLM_script"
 UPDATER_VERSION="1.0"
-"
+
 echo -e "\033[1;36m +---------------------------+\033[0m"
 echo -e "\033[1;36m |  CLM Updater version ${UPDATER_VERSION}  |\033[0m"
 echo -e "\033[1;36m +---------------------------+\033[0m"
