@@ -8,7 +8,10 @@ It's certainly a useless and therefore useful gadget :)
 I make this script available in its version 1.0.1
 
 My configuration:
-I'm on a virtual machine with VM VirtualBox, under the Linux Mint 19.3 Tricia distribution.
+I'm on a virtual machine with VM VirtualBox, under the Linux Mint 19.3 Tricia distribution.   
+  
+You can see the script in action on my youtube channel:  
+https://youtu.be/L4d5K-uX-3M
 
 Download package and unzip in the user folder:   
   
