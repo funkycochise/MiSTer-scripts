@@ -1,12 +1,46 @@
 #!/bin/bash
 
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+# Copyright 2020-2021 Aka "Naku" Ben
+
+# You can download the latest version of this script from:
+# https://github.com/nakuakaben/MiSTer-scripts
+
+
+
+# Version 1.0 - 2020-06-04 - First commit.
+
+
+#=========   USER OPTIONS   =========
+#Url
 URL="https://github.com"
 SCRIPT_URL="https://raw.githubusercontent.com/nakuakaben/MiSTer-scripts/master/clm_script.sh"
 
-clear
-echo -e "\033[1;36m -----------\033[0m"
-echo -e "\033[1;36m Updater CLM\033[0m"
-echo -e "\033[1;36m -----------\033[0m"
+#Specifies if old files (clm_script) will be deleted as part of an update.
+DELETE_OLD_FILES="true"
+
+#========= ADVANCED OPTIONS =========
+
+UNRAR_DEBS_URL="http://http.us.debian.org/debian/pool/non-free/u/unrar-nonfree"
+TEMP_PATH="/tmp"
+
+#========= CODE STARTS HERE =========
+
+UPDATER_VERSION="1.0"
+echo "CLM Updater version ${UPDATER_VERSION}"
+echo ""
 
 echo -e "\n Downloading last version of CLM \n"
 	curl -O "${SCRIPT_URL}"
