@@ -12,7 +12,8 @@ echo -e "\n Remove old version of CLM ...\c"
 	rm -f clm_script.sh
 echo "done"
 echo -e "\n Downloading last version of CLM \n"
-	wget "${SCRIPT_URL}" -t 3 --show-progress -q --no-check-certificate
+	curl -O "${SCRIPT_URL}"
+	# wget "${SCRIPT_URL}" -t 3 --show-progress -q --no-check-certificate
 echo ""
 echo -e "\033[1;32m Give the execution rights to the script...\033[0m\c"
 	chmod +x clm_script.sh
