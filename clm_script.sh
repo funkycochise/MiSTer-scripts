@@ -18,7 +18,7 @@
 # You can download the latest version of this script from:
 # https://github.com/nakuakaben/MiSTer-scripts
 
-# Version 1.0.1 - 2020-06-04 - new layout and some minor fixes
+# Version 1.1   - 2020-06-04 - new layout and some minor fixes
 # Version 1.0   - 2020-06-03 - First commit
 
 BASE_PATH="$HOME"
@@ -45,7 +45,7 @@ echo -e "INFORMATIONS:"
 echo -e "\033[1;36m * Press ENTER for list again.\033[0m"
 echo -e "\033[1;36m * Once selected and validated, the script goes to the next step.\033[0m"
 echo -e "\033[1;36m * Thank you terminator2k2 for the color and japanese logo.      \033[0m"
-echo -e "\033[1;36m * Script version\033[0m 1.0.1 \n"
+echo -e "\033[1;36m * Script version\033[0m 1.1 \n"
 echo -e "DISCLAIMER:"
 echo -e "\033[1;31m * You can do whatever you want with this file,\033[0m"
 echo -e "\033[1;31m   i won't be resposible if there's a probleme with your FPGA.   \033[0m"
