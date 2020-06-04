@@ -8,9 +8,10 @@ echo -e "\033[1;36m -----------\033[0m"
 echo -e "\033[1;36m Updater CLM\033[0m"
 echo -e "\033[1;36m -----------\033[0m"
 
-echo -e "\n Remove old version of CLM ...\c"
-	rm -f clm_script.sh
-echo "done"
+# echo -e "\n Remove old version of CLM ...\c"
+#	rm -f clm_script.sh
+# echo "done"
+
 echo -e "\n Downloading last version of CLM \n"
 	curl -O "${SCRIPT_URL}"
 	# wget "${SCRIPT_URL}" -t 3 --show-progress -q --no-check-certificate
