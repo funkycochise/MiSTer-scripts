@@ -11,13 +11,13 @@ My configuration:
 I'm on a virtual machine with VM VirtualBox, under the Linux Mint 19.3 Tricia distribution.
 
 Download package and unzip in the user folder:   
-Content:
-* Script: change_logo_mister.sh
+  
+* change_logo_mister.sh
 * Folder with the different logos, thank terminator2k2 for color and japan  
  ![alt COLOR](https://github.com/nakuakaben/MiSTer-scripts/blob/master/MiSTer/color.png "COLOR")  
  ![alt JAPAN](https://github.com/nakuakaben/MiSTer-scripts/blob/master/MiSTer/japan.png "JAPAN")
- - nologo.png , blank
- - mylogo.png ,  if you want to make your own logo, rename your creation in mylogo.png
+ - nologo.png , *blank*
+ - mylogo.png ,  *if you want to make your own logo, rename your creation in mylogo.png
 
   *Tips: it is much easier to use nologo and to integrate one into the creation of your each wallpapers.*
 
