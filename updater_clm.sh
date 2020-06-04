@@ -37,9 +37,11 @@ UNRAR_DEBS_URL="http://http.us.debian.org/debian/pool/non-free/u/unrar-nonfree"
 TEMP_PATH="/tmp"
 
 #========= CODE STARTS HERE =========
+clear
 
 UPDATER_VERSION="1.0"
-echo "CLM Updater version ${UPDATER_VERSION}"
+echo -e "\033[1;32m +-----------------------+"
+echo -e "\033[1;37m CLM Updater version ${UPDATER_VERSION}"
 echo ""
 
 echo -e "\n Downloading last version of CLM \n"
