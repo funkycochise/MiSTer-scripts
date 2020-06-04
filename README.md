@@ -1,11 +1,11 @@
 # MiSTer-scripts
 Various scripts available to users
 
-Automated script to change the Mister Logo v1.0.1
+CLM_scripts (Change Logo Mister) v1.0.1
 ---  
 I made a little script to automate the integration, change or remove the Mister logo with the latest available sources.  
 It's certainly a useless and therefore useful gadget :)  
-I make this script available in its version 1.0.1
+
 
 My configuration:
 I'm on a virtual machine with VM VirtualBox, under the Linux Mint 19.3 Tricia distribution.   
