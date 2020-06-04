@@ -28,26 +28,24 @@
 URL="https://github.com"
 SCRIPT_URL="https://raw.githubusercontent.com/nakuakaben/MiSTer-scripts/master/clm_script.sh"
 
-#Specifies if old files (clm_script) will be deleted as part of an update.
-DELETE_OLD_FILES="true"
 
 #========= ADVANCED OPTIONS =========
 
-UNRAR_DEBS_URL="http://http.us.debian.org/debian/pool/non-free/u/unrar-nonfree"
-TEMP_PATH="/tmp"
 
 #========= CODE STARTS HERE =========
 clear
 
+CLM="CLM_script
 UPDATER_VERSION="1.0"
-echo -e "\033[1;32m +-----------------------+"
-echo -e "\033[1;37m CLM Updater version ${UPDATER_VERSION}"
-echo ""
+"
+echo -e "\033[1;36m +---------------------------+\033[0m"
+echo -e "\033[1;36m |  CLM Updater version ${UPDATER_VERSION}  |\033[0m"
+echo -e "\033[1;36m +---------------------------+\033[0m"
 
-echo -e "\n Downloading last version of CLM \n"
+echo -e "\nDownloading last version of $CLM \n"
 	curl -O "${SCRIPT_URL}"
 echo ""
-echo -e "\033[1;32m Give the execution rights to the script...\033[0m\c"
+echo -e "Make executable $CLM...\c"
 	chmod +x clm_script.sh
 echo "done"
 
