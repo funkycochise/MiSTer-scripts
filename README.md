@@ -42,4 +42,5 @@ Download package and unzip in the user folder:
 * Run script  
   `./updater_clm.sh`  
  
+ Enjoy :)
 
