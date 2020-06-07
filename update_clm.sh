@@ -2,7 +2,7 @@
 
 # variable
 URL="https://github.com"
-SCRIPT_SH="clm_simplify.sh"
+SCRIPT_SH="clm_script.sh"
 SCRIPT_URL="$URL/nakuakaben/MiSTer-scripts/raw/master/$SCRIPT_SH"
 
 # code start here
