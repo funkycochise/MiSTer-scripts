@@ -1,5 +1,5 @@
-CLM_scripts (Change Logo Mister)
----  
+CLM_scripts
+---
 Scrips to compile the latest MiSTer source with the ability to change or remove the logo. 
   
 You can see the script in action on my youtube channel: *(detailed version)*
