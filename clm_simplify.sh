@@ -10,6 +10,8 @@ MISTER_URL="$URL/MiSTer-devel/"
 # logo
 OPTION1="nologo.png"
 OPTION2="mylogo.png"
+OPTION3="color.png"
+OPTION4="japan.png"
 
 # others 
 VERSION="1.0"
@@ -25,7 +27,7 @@ echo -e "Delete old files  ... \c"
     rm -f "${MISTER_PATH}MiSTer"
     echo "done"
  
-options=("$OPTION1" "$OPTION2")
+options=("$OPTION1" "$OPTION2" "$OPTION3" "$OPTION4")
 for p in "${options[@]}" 
 do
 echo -e "MiSTer/$p ... \c"
@@ -61,10 +63,18 @@ function mylogo {
     echo ""
     echo -en "Copy ...";cp -v "${MISTER_PATH}$opt" "${MISTER_PATH}Main_MiSter/logo.png"      
 }
+function color {
+    echo ""
+    echo -en "Copy ...";cp -v "${MISTER_PATH}$opt" "${MISTER_PATH}Main_MiSter/logo.png"      
+}
+function japan {
+    echo ""
+    echo -en "Copy ...";cp -v "${MISTER_PATH}$opt" "${MISTER_PATH}Main_MiSter/logo.png"      
+}
 
 PS3='Please enter your choice: '
-choices=("$OPTION1" "$OPTION2" "Keep")
-select opt in "${choices[@]}"
+options=("$OPTION1" "$OPTION2" "Keep")
+select opt in "${options[@]}"
 do
     case $opt in
         "$OPTION1")
@@ -73,6 +83,14 @@ do
             ;;
         "$OPTION2")
             mylogo
+            break
+            ;;
+        "$OPTION3")
+            color
+            break
+            ;;
+        "$OPTION4")
+            japan
             break
             ;;
         "Keep")
