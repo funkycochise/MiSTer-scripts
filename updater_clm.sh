@@ -37,7 +37,7 @@ clear
 UPDATER_VERSION="1.1"
 
 echo -e "\033[1;36m +---------------------------+\033[0m"
-echo -e "\033[1;36m |  Updater version ${UPDATER_VERSION}  |\033[0m"
+echo -e "\033[1;36m     Updater version ${UPDATER_VERSION}\033[0m"
 echo -e "\033[1;36m +---------------------------+\033[0m"
 
 echo -e "\nDownloading last version of $CLM \n"
