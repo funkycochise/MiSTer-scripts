@@ -1,6 +1,3 @@
-# MiSTer-scripts
-Various scripts available to users
-
 CLM_scripts (Change Logo Mister)
 ---  
 I made a little script to automate the integration, change or remove the Mister logo with the latest available sources.  
@@ -13,10 +10,9 @@ I'm on a virtual machine with VM VirtualBox, under the Linux Mint 19.3 Tricia di
 You can see the script in action on my youtube channel:  
 https://youtu.be/L4d5K-uX-3M
 
-Download updater_clm.sh & MiSTer (folder):   
+Download updater_clm.sh:
+`wget -q -t 3 --show-progress -O $HOME/updater_clm.sh https://github.com/nakuakaben/MiSTer-scripts/raw/master/updater_clm.sh &&  chmod +x $HOME/updater_clm.sh`
   
-* updater_clm.sh ; *updater for main script*  
-* Folder with the different logos, thank terminator2k2 for color and japan  
  ![alt COLOR](https://github.com/nakuakaben/MiSTer-scripts/blob/master/MiSTer/color.png "COLOR")  
  ![alt JAPAN](https://github.com/nakuakaben/MiSTer-scripts/blob/master/MiSTer/japan.png "JAPAN")
  - nologo.png , *blank*
