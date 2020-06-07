@@ -14,7 +14,7 @@ OPTION3="color.png"
 OPTION4="japan.png"
 
 # others 
-VERSION="1.0"
+VERSION="1.0.1"
 
 # code start here
 clear
