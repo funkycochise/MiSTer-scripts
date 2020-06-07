@@ -30,11 +30,11 @@ echo -e "MiSTer/$p ... \c"
             echo "downloading"
             wget "$GET_PNG${p}" -t 3 --show-progress -q --no-check-certificate -nc -c -P $MISTER_PATH
         else
-			echo "not found"
+	    echo "not found"
         fi
     else
-		echo "done"
-	fi
+	echo "done"
+    fi
 done
 
 echo -e "\nDownloading last version of CLM"
