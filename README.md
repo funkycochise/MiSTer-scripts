@@ -1,7 +1,7 @@
 # MiSTer-scripts
 Various scripts available to users
 
-CLM_scripts (Change Logo Mister) v1.0.1
+CLM_scripts (Change Logo Mister)
 ---  
 I made a little script to automate the integration, change or remove the Mister logo with the latest available sources.  
 It's certainly a useless and therefore useful gadget :)  
