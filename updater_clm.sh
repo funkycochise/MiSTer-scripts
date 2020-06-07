@@ -6,7 +6,7 @@
 # Version 1.1 - 2020-06-07 - Modification of the code: use of temporary directory and cleaning at the end of the script.
 # Version 1.0 - 2020-06-04 - First commit.
 
-#v ariable
+# variable
 GIT="https://github.com"
 SCRIPT_SH="clm_script.sh"
 SCRIPT_URL="$GIT/nakuakaben/MiSTer-scripts/raw/master/$SCRIPT_SH"
