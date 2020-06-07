@@ -2,7 +2,7 @@
 
 # You can download the latest version of this script from:
 # https://github.com/nakuakaben/MiSTer-scripts
-
+# Version 1.2 - 2020-06-07 - Adding the content verification needed for CLM
 # Version 1.1 - 2020-06-07 - Modification of the code: use of temporary directory and cleaning at the end of the script.
 # Version 1.0 - 2020-06-04 - First commit.
 
