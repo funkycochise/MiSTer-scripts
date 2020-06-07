@@ -38,7 +38,6 @@ MISTER_URL="${URL}/MiSTer-devel/"
 CLM_VERSION="1.1"
 
 # code start here
-clear
 echo "Change logo mister $CLM_VERSION"
 
 echo -e "\n\033[1;33m Do you want to delete the Main_MiSter directory and/or the MiSTer file ? \033[0m \n"
