@@ -1,5 +1,5 @@
-CLM_scripts
----
+# CLM_scripts
+
 Scrips to compile the latest MiSTer source with the ability to change or remove the logo. 
   
 You can see the script in action on my youtube channel: *(detailed version)*
@@ -22,9 +22,9 @@ https://youtu.be/L4d5K-uX-3M
 * Run script  
   `./updater_clm.sh`  
  
- ## TIPS  
-  **mylogo.png**: *if you want to make your own logo, rename your creation in mylogo.png*  
-  **nologo**: *it is much easier to use nologo and to integrate one into the creation of your each wallpapers.* 
+**TIPS:** 
+  **mylogo.png**: if you want to make your own logo, rename your creation in mylogo.png  
+  **nologo**: it is much easier to use nologo and to integrate one into the creation of your each wallpapers.  
  
  Enjoy :)
 
