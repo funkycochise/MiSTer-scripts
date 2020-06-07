@@ -2,8 +2,6 @@
 
 # option
 URL="https://github.com"
-SCRIPT_SH="clm_script.sh"
-SCRIPT_URL="$URL/nakuakaben/MiSTer-scripts/raw/master/$SCRIPT_SH"
 GET_PNG="$URL/nakuakaben/MiSTer-scripts/raw/master/MiSTer/"
 MISTER_PATH="$HOME/MiSTer/"
 
