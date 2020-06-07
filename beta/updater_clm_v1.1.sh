@@ -19,13 +19,14 @@
 # https://github.com/nakuakaben/MiSTer-scripts
 
 
-
+# Version 1.1 - 2020-06-07 - Modification of the code: use of temporary directory and cleaning at the end of the script.
 # Version 1.0 - 2020-06-04 - First commit.
 
 #=========   USER OPTIONS   =========
 #Url
 GIT="https://github.com"
-SCRIPT_URL="$GIT/nakuakaben/MiSTer-scripts/raw/master/clm_script.sh"
+SCRIPT_SH="clm_script.sh"
+SCRIPT_URL="$GIT/nakuakaben/MiSTer-scripts/raw/master/$SCRIPT_SH"
 
 #========= ADVANCED OPTIONS =========
 
@@ -34,26 +35,26 @@ SCRIPT_URL="$GIT/nakuakaben/MiSTer-scripts/raw/master/clm_script.sh"
 clear
 
 CLM="CLM_script"
-UPDATER_VERSION="1.0"
+UPDATER_VERSION="1.1"
 
 echo -e "\033[1;36m +---------------------------+\033[0m"
-echo -e "\033[1;36m |  CLM Updater version ${UPDATER_VERSION}  |\033[0m"
+echo -e "\033[1;36m |  Check for Updater version ${UPDATER_VERSION}  |\033[0m"
 echo -e "\033[1;36m +---------------------------+\033[0m"
 
 echo -e "\nDownloading last version of $CLM \n"
-    wget -q -t 3 --output-file=/tmp/wget-log --show-progress -O /tmp/clm_script.sh $SCRIPT_URL
+    wget -q -t 3 --output-file=/tmp/wget-log --show-progress -O /tmp/$SCRIPT_SH $SCRIPT_URL
 	# curl -O "${SCRIPT_URL}"
 echo ""
 echo -e "Make executable $CLM...\c"
-	chmod +x /tmp/clm_script.sh
+	chmod +x /tmp/$SCRIPT_SH
 echo "done"
 
 echo -en "\n\033[1;33m Run script \033[0m"; sleep 0.05; echo -n "."; sleep 0.05; echo -n "."; sleep 0.05; echo -n "."; sleep 0.05; echo -n "."; sleep 0.05; sleep 0.05; echo -n "."; sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n "."; echo -n "]";
 echo ""
-	/tmp/clm_script.sh
+	/tmp/$SCRIPT_SH
 
 echo -e "Cleaning.........\c"	
-    rm -f /tmp/clm_script.sh
+    rm -f /tmp/$SCRIPT_SH
 echo "done"
 echo ""
 
