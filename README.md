@@ -23,8 +23,10 @@ https://youtu.be/L4d5K-uX-3M
   `./updater_clm.sh`  
  
 **TIPS:**  
-  *mylogo.png*: if you want to make your own logo, rename your creation in mylogo.png  
-  *nologo*: it is much easier to use nologo and to integrate one into the creation of your each wallpapers.  
+  * mylogo.png:  
+    if you want to make your own logo, rename your creation in mylogo.png  
+  * nologo.png:  
+    it is much easier to use nologo and to integrate one into the creation of your each wallpapers.  
  
  Enjoy :)
 
