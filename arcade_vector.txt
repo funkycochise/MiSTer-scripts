@@ -1,4 +1,0 @@
-Black Widow.mra
-Gravitar.mra
-Lunar Battle.mra
-Lunar Lander.mra
