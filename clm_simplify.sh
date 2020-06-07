@@ -96,7 +96,7 @@ do
         "Keep")
             break
             ;;
-        *) echo -e "\033[1;31m Lost ?\033[0m, please select: \n 1) $OPTION1 \n 2) $OPTION2 \n 3) keep \n";;
+        *) echo -e "\033[1;31m Lost ?\033[0m, please select: \n 1) $OPTION1 \n 2) $OPTION2 \n 3) $OPTION3 \n 4) $OPTION4 \n";;
     esac
 done
 
