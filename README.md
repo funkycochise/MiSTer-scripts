@@ -10,15 +10,11 @@ I'm on a virtual machine with VM VirtualBox, under the Linux Mint 19.3 Tricia di
 You can see the script in action on my youtube channel:  
 https://youtu.be/L4d5K-uX-3M
 
-Download updater_clm.sh:
+Download updater_clm.sh:  
 `wget -q -t 3 --show-progress -O $HOME/updater_clm.sh https://github.com/nakuakaben/MiSTer-scripts/raw/master/updater_clm.sh &&  chmod +x $HOME/updater_clm.sh`
-  
- ![alt COLOR](https://github.com/nakuakaben/MiSTer-scripts/blob/master/MiSTer/color.png "COLOR")  
- ![alt JAPAN](https://github.com/nakuakaben/MiSTer-scripts/blob/master/MiSTer/japan.png "JAPAN")
- - nologo.png , *blank*
- - mylogo.png ,  *if you want to make your own logo, rename your creation in mylogo.png*
 
-  *Tips: it is much easier to use nologo and to integrate one into the creation of your each wallpapers.*
+  **mylogo.png** ,  *if you want to make your own logo, rename your creation in mylogo.png*  
+  **Tips**: *it is much easier to use nologo and to integrate one into the creation of your each wallpapers.*  
 
 **Requierement:**
 * Install the GCC, G++ cross compilers and support programs by typing:  
