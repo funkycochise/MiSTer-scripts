@@ -25,10 +25,10 @@ BASE_PATH="$HOME"
 MISTER_PATH="${BASE_PATH}/MiSTer/"
 
 # logo
-COLOR_LOGO="color.png"
-JAPAN_LOGO="japan.png"
-NO_LOGO="nologo.png"
-MY_LOGO="mylogo.png"
+OPTION1="color.png"
+OPTION2="japan.png"
+OPTION3="nologo.png"
+OPTION4="mylogo.png"
 
 
 # ========= OPTIONS ==================
@@ -38,7 +38,7 @@ MISTER_URL="${URL}/MiSTer-devel/"
 CLM_VERSION="1.1"
 
 # code start here
-echo "Change logo mister $CLM_VERSION"
+echo -e "\n Change logo of mister $CLM_VERSION"
 
 echo -e "\n\033[1;33m Do you want to delete the Main_MiSter directory and/or the MiSTer file ? \033[0m \n"
 
@@ -131,30 +131,30 @@ function mylogo {
 }
 
 PS3='Please enter your choice: '
-options=("$COLOR_LOGO" "$JAPAN_LOGO" "$NO_LOGO" "$MY_LOGO"  "Keep")
+options=("$OPTION1" "$OPTION2" "$OPTION3" "$OPTION4"  "Keep")
 select opt in "${options[@]}"
 do
     case $opt in
-        "$COLOR_LOGO")
+        "$OPTION1")
             color 
             break
             ;;
-        "$JAPAN_LOGO")
+        "$OPTION2")
             japan
             break
             ;;
-        "$NO_LOGO")
+        "$OPTION3")
             nologo
             break
             ;;
-        "$MY_LOGO")
+        "$OPTION4")
             mylogo
             break
             ;;
         "Keep")
             break
             ;;
-        *) echo -e "\033[1;31m Lost ?\033[0m, please select: \n 1) color \n 2) japan \n 3) nologo \n 4) mylogo \n 5) keep \n";;
+        *) echo -e "\033[1;31m Lost ?\033[0m, please select: \n 1) $OPTION1 \n 2) $OPTION2 \n 3) $OPTION3 \n 4) $OPTION4 \n 5) keep \n";;
     esac
 done
 
