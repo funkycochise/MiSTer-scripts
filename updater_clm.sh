@@ -19,6 +19,8 @@ VERSION="1.1"
 clear
 
 # check for the necessary files
+echo -e "Check folder/files and Update $VERSION \n" # display updater version
+
 options=("color.png" "japan.png" "nologo.png" "mylogo.png")
 for p in "${options[@]}" # pour $p choissir l'element [@] dans la variable "options" 
 do
@@ -35,12 +37,9 @@ echo -e "MiSTer/$p ... \c"
 	fi
 done
 
-echo "Check and Update $VERSION" # display updater version
-
-echo "Downloading..."
+echo -e "\nDownloading..."
 	wget -q -t 3 --output-file=/tmp/wget-log --show-progress -O /tmp/$SCRIPT_SH $SCRIPT_URL # downloading to output /tmp
 	chmod +x /tmp/$SCRIPT_SH # make executable script
-echo "done"
 
 echo -e "\nRun script"
 	/tmp/$SCRIPT_SH # run script 
