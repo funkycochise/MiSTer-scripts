@@ -14,7 +14,7 @@ UPDATER_VERSION="1.1"
 
 # code start here
 clear
-echo -e "Updater $UPDATER_VERSION\n" # display updater version
+echo "Updater $UPDATER_VERSION" # display updater version
 
 echo "Downloading..."
 	wget -q -t 3 --output-file=/tmp/wget-log --show-progress -O /tmp/$SCRIPT_SH $SCRIPT_URL # downloading to output /tmp
