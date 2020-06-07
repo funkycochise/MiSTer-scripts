@@ -40,8 +40,6 @@ done
 echo -e "\nDownloading last version of CLM"
 	wget -q -t 3 --output-file=/tmp/wget-log --show-progress -O /tmp/$SCRIPT_SH $SCRIPT_URL # downloading to output /tmp
 	chmod +x /tmp/$SCRIPT_SH # make executable script
-
-echo -e "\nRun\n"
 	/tmp/$SCRIPT_SH # run script 
 	rm -f /tmp/$SCRIPT_SH # clean file in /tmp at the end
 exit 0
