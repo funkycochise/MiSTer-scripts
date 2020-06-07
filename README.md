@@ -13,9 +13,8 @@ I'm on a virtual machine with VM VirtualBox, under the Linux Mint 19.3 Tricia di
 You can see the script in action on my youtube channel:  
 https://youtu.be/L4d5K-uX-3M
 
-Download package and unzip in the user folder:   
+Download updater_clm.sh & MiSTer (folder):   
   
-* clm_script.sh  ; *main script*  
 * updater_clm.sh ; *updater for main script*  
 * Folder with the different logos, thank terminator2k2 for color and japan  
  ![alt COLOR](https://github.com/nakuakaben/MiSTer-scripts/blob/master/MiSTer/color.png "COLOR")  
