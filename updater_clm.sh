@@ -10,18 +10,39 @@
 GIT="https://github.com"
 SCRIPT_SH="clm_script.sh"
 SCRIPT_URL="$GIT/nakuakaben/MiSTer-scripts/raw/master/$SCRIPT_SH"
-UPDATER_VERSION="1.1"
+MISTER_PATH="$HOME/MiSTer/"
+GET_PNG="$GIT/nakuakaben/MiSTer-scripts/raw/master/MiSTer/"
+
+VERSION="1.1"
 
 # code start here
 clear
-echo "Updater $UPDATER_VERSION" # display updater version
+
+# check for the necessary files
+options=("color.png" "japan.png" "nologo.png" "mylogo.png")
+for p in "${options[@]}" # pour $p choissir l'element [@] dans la variable "options" 
+do
+echo -e "MiSTer/$p ... \c"
+    if [ ! -f "$MISTER_PATH${p}" ]; then
+        if curl --location --head --fail -k --silent "$GET_PNG${p}" >/dev/null; then
+            echo "downloading"
+            wget "$GET_PNG${p}" -t 3 --show-progress -q --no-check-certificate -nc -c -P $MISTER_PATH
+        else
+			echo "not found"
+        fi
+    else
+		echo "done"
+	fi
+done
+
+echo "Check and Update $VERSION" # display updater version
 
 echo "Downloading..."
 	wget -q -t 3 --output-file=/tmp/wget-log --show-progress -O /tmp/$SCRIPT_SH $SCRIPT_URL # downloading to output /tmp
 	chmod +x /tmp/$SCRIPT_SH # make executable script
 echo "done"
 
-echo -en "Run script"; sleep 0.05; echo -n "."; sleep 0.05; echo -n "."; sleep 0.05; echo -n "."; sleep 0.05; echo -n "."; sleep 0.05; sleep 0.05; echo -n "."; sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n ".";sleep 0.05; echo -n "."; echo -n "]";
+echo -e "\nRun script"
 	/tmp/$SCRIPT_SH # run script 
 	rm -f /tmp/$SCRIPT_SH # clean file in /tmp at the end
 exit 0
