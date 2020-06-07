@@ -96,7 +96,7 @@ do
         "Keep")
             break
             ;;
-        *) echo -e "\n Lost, please select: \n 1) $OPTION1 \n 2) $OPTION2 \n 3) $OPTION3 \n 4) $OPTION4 \n";;
+        *) echo -e "\n No Way, please select: \n 1) $OPTION1 \n 2) $OPTION2 \n 3) $OPTION3 \n 4) $OPTION4 \n 5) Keep \n";;
     esac
 done
 
