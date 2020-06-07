@@ -96,7 +96,7 @@ do
         "Keep")
             break
             ;;
-        *) echo -e "\033[1;31m Lost ?\033[0m, please select: \n 1) $OPTION1 \n 2) $OPTION2 \n 3) $OPTION3 \n 4) $OPTION4 \n";;
+        *) echo -e "\n Lost, please select: \n 1) $OPTION1 \n 2) $OPTION2 \n 3) $OPTION3 \n 4) $OPTION4 \n";;
     esac
 done
 
@@ -106,6 +106,5 @@ cd "${MISTER_PATH}Main_MiSter/" && make -i | pv -tr >/dev/null
 
 #move mister_file to mister_path
 echo -en "Copy ...";cp -v "${MISTER_PATH}Main_MiSter/MiSTer" ${MISTER_PATH}  
-
-echo "Done!"
+echo ""
 exit 0
