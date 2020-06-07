@@ -13,7 +13,6 @@ SCRIPT_URL="$GIT/nakuakaben/MiSTer-scripts/raw/master/$SCRIPT_SH"
 UPDATER_VERSION="1.1"
 
 # code start here
-clear
 echo "Updater $UPDATER_VERSION" # display updater version
 
 echo "Downloading..."
