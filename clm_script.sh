@@ -35,7 +35,7 @@ MY_LOGO="mylogo.png"
 URL="https://github.com"
 SCRIPT_URL="${URL}/nakuakaben/MiSTer-scripts/blob/master/clm_script.sh"
 MISTER_URL="${URL}/MiSTer-devel/"
-CLM_VERSION:"1.1"
+CLM_VERSION="1.1"
 
 # code start here
 clear
