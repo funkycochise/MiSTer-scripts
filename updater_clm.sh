@@ -34,11 +34,10 @@ SCRIPT_URL="$GIT/nakuakaben/MiSTer-scripts/raw/master/$SCRIPT_SH"
 #========= CODE STARTS HERE =========
 clear
 
-CLM="CLM_script"
 UPDATER_VERSION="1.1"
 
 echo -e "\033[1;36m +---------------------------+\033[0m"
-echo -e "\033[1;36m |  Check for Updater version ${UPDATER_VERSION}  |\033[0m"
+echo -e "\033[1;36m |  Updater version ${UPDATER_VERSION}  |\033[0m"
 echo -e "\033[1;36m +---------------------------+\033[0m"
 
 echo -e "\nDownloading last version of $CLM \n"
