@@ -28,5 +28,9 @@ https://youtu.be/L4d5K-uX-3M
   * nologo.png:  
     it is much easier to use nologo and to integrate one into the creation of your each wallpapers.  
  
+Also tested on the LXDE for MisterFPGA and it works too.  
+If you want to compile from your Mister from LXDE, add this command line at the end of **updater_clm.sh**  
+`echo -en "Update file on FPGA ...";cp -v $HOME/MiSTer/MiSTer /media/fat/`  
+ 
  Enjoy :)
 
