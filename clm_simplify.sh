@@ -73,7 +73,7 @@ function japan {
 }
 
 PS3='Please enter your choice: '
-options=("$OPTION1" "$OPTION2" "Keep")
+options=("$OPTION1" "$OPTION2" "$OPTION3" "$OPTION4" "Keep")
 select opt in "${options[@]}"
 do
     case $opt in
