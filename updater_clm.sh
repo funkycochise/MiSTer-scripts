@@ -18,6 +18,7 @@ echo "Downloading..."
 
 echo -e "Update file on FPGA ...\c"
 if [ "$(uname -n)" != "MiSTer" ]; then
+		echo "not possible"
 		echo -e "\n This option is only available on Mister"
 		echo -e "\n Update MiSTer manually USB or LAN"
 		exit 1
