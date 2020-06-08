@@ -27,6 +27,7 @@ if [ "$(uname -n)" != "MiSTer" ]; then
 	echo -e "\033[1;32mdone\033[0m"
 	cp -v "$HOME/MiSTer/MiSTer" /media/fat/
 fi
-echo -e " -----------------------------------\n"
+echo -e " -----------------------------------"
+echo ""
 
 exit 0
