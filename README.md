@@ -24,7 +24,7 @@ https://youtu.be/L4d5K-uX-3M
  
 **TIPS:**  
   * mylogo.png:  
-    if you want to make your own logo, rename your creation in **$HOME/MiSTer/mylogo.png**  
+    if you want to make your own logo, rename your creation in `$HOME/MiSTer/mylogo.png`  
   * nologo.png:  
     it is much easier to use nologo and to integrate one into the creation of your each wallpapers.  
  
