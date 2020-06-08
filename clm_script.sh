@@ -14,7 +14,7 @@ OPTION3="color.png"
 OPTION4="japan.png"
 
 # others 
-VERSION="1.0.3"
+VERSION="1.0.4"
 
 # code start here
 clear
@@ -47,7 +47,7 @@ sleep 2
 
 # clone git main_mister
 echo ""
-    cd "${MISTER_PATH}" || return
+    cd "$MISTER_PATH" || return
     git clone "${MISTER_URL}Main_MiSter.git"
 
 # choose nologo, mylogo or keep
