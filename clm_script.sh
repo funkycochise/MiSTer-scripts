@@ -57,7 +57,9 @@ echo "Do you want to change the logo displayed on the screen ?"
 
 function nologo {
     echo ""
-    echo -en "Copy ...";cp -v "${MISTER_PATH}$opt" "${MISTER_PATH}Main_MiSter/logo.png"     
+    echo -e "Copy $opt... \c"
+    	cp "${MISTER_PATH}$opt" "${MISTER_PATH}Main_MiSter/logo.png"
+    echo "done"
 }
 function mylogo {
     echo ""
