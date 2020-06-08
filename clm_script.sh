@@ -47,7 +47,7 @@ sleep 2
 
 # clone git main_mister
 echo ""
-    "cd $MISTER_PATH"
+    cd "${MISTER_PATH}" || return
     git clone "${MISTER_URL}Main_MiSter.git"
 
 # choose nologo, mylogo or keep
