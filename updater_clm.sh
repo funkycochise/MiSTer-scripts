@@ -16,7 +16,7 @@ echo "Downloading..."
 	
 # if you use this script on FPGA - LXDE
 
-echo -e " ---------------------- \c"
+echo -e " ---------------------------------"
 echo -e " Update file on FPGA... \c"
 if [ "$(uname -n)" != "MiSTer" ]; then
 		echo "not possible"
