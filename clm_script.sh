@@ -34,7 +34,7 @@ echo -e "MiSTer/$p ... \c"
     if [ ! -f "$MISTER_PATH${p}" ]; then
         if curl --location --head --fail -k --silent "$GET_PNG${p}" >/dev/null; then
             echo "downloading"
-            wget "$GET_PNG${p}" -t 3 --show-progress -q --no-check-certificate -nc -c -P "$MISTER_PATH"
+            wget "$GET_PNG${p}" -t 3 --show-progress -q --no-check-certificate -nc -c -P $MISTER_PATH
         else
 	    echo "not found"
         fi
@@ -47,7 +47,7 @@ sleep 2
 
 # clone git main_mister
 echo ""
-    "cd $MISTER_PATH"
+    cd $MISTER_PATH
     git clone "${MISTER_URL}Main_MiSter.git"
 
 # choose nologo, mylogo or keep
@@ -105,6 +105,6 @@ echo ""
 cd "${MISTER_PATH}Main_MiSter/" && make -i | pv -tr >/dev/null
 
 #move mister_file to mister_path
-echo -en "Copy ...";cp -v "${MISTER_PATH}Main_MiSter/MiSTer" "$MISTER_PATH"
+echo -en "Copy ...";cp -v "${MISTER_PATH}Main_MiSter/MiSTer" ${MISTER_PATH}  
 echo ""
 exit 0
