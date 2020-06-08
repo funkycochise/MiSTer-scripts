@@ -52,8 +52,9 @@ Unpack *(it takes a few minutes on DE10_NANO - go out for coffee and even walk t
 Add to your path.  
 `export CC='/opt/gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc'`  
 
-Run script  
-`./updater_clm.sh`  
+Download and run:  
+`wget -q -t 3 --show-progress -O $HOME/updater_clm.sh https://github.com/nakuakaben/MiSTer-scripts/raw/master/updater_clm.sh &&  chmod +x $HOME/updater_clm.sh && $HOME/updater_clm.sh`  
+
 about 4 min to make on DE10_NANO  
 reboot your mister.  
 
