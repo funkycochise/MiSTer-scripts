@@ -14,7 +14,7 @@ OPTION3="color.png"
 OPTION4="japan.png"
 
 # others 
-VERSION="1.0.5"
+VERSION="1.0.6"
 
 # code start here
 clear
@@ -113,7 +113,7 @@ echo ""
 cd "${MISTER_PATH}Main_MiSter/" && make -i | pv -tr >/dev/null
 
 #move mister_file to mister_path
-echo -e "Copy MiSTer (file) at $HOME... \c"
-	cp "${MISTER_PATH}Main_MiSter/MiSTer" "$HOME"
+echo -e "\nCopy MiSTer (file) to $MISTER_PATH... \c"
+	cp "${MISTER_PATH}Main_MiSter/MiSTer" "$MISTER_PATH"
 echo "done"
 exit 0
