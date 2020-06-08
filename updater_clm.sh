@@ -24,7 +24,7 @@ if [ "$(uname -n)" != "MiSTer" ]; then
 			echo -e " Copy MiSTer (file) on your SD Card /media/fat/ or upload." 
 		exit 1
         else 
-	echo -e "\033[1;32mdone\033[0m"
+	echo "done"
 	cp -v "$HOME/MiSTer/MiSTer" /media/fat/
 fi
 echo -e " -----------------------------------"
