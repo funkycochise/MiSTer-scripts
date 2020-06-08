@@ -57,6 +57,8 @@ Download and run:
 
 about 4 min to make on DE10_NANO  
 reboot your mister.  
+  
+**For the next updates, you just have to launch the script on LINUX Desktop**
 
  Enjoy :)
 
