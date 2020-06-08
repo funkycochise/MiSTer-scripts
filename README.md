@@ -2,7 +2,7 @@
 
 Scrips to compile the latest MiSTer source with the ability to change or remove the logo. 
   
-You can see the script in action on my youtube channel: *(detailed version)*
+You can see the script in action here: *(detailed version)*
 https://youtu.be/L4d5K-uX-3M  
 
 **Requierement:**
@@ -31,6 +31,9 @@ https://youtu.be/L4d5K-uX-3M
 ## Desktop Linux on DE10_NANO  
 
 https://github.com/MiSTer-devel/Main_MiSTer/wiki/Desktop-Linux  
+  
+You can see the script in action here: *(LXDE on MiSTer FPGA)*
+https://www.youtube.com/watch?v=-VekW3cHk_s
 
 Also tested on the LXDE for MisterFPGA and it works too.  
 If you want to compile from your Mister with LXDE, the MiSTer file will be updated directly on the SD Card.   
