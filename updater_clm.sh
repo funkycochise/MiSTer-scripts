@@ -24,8 +24,7 @@ if [ "$(uname -n)" != "DE10_NANO" ]; then
 			echo -e " Copy MiSTer (file) on your SD Card /media/fat/ or upload." 
 		exit 1
         else 
-	echo "done"
-	echo -en "Copy... "; cp -v "$HOME/MiSTer/MiSTer" /media/fat/
+	cp "$HOME/MiSTer/MiSTer" /media/fat/ && echo "done"
 	
 fi
 echo ""
