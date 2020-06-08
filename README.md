@@ -32,7 +32,7 @@ https://youtu.be/L4d5K-uX-3M
 
 https://github.com/MiSTer-devel/Main_MiSTer/wiki/Desktop-Linux  
   
-You can see the script in action here: *(LXDE on MiSTer FPGA)*
+You can see the script in action here: *(LXDE on MiSTer FPGA)*  
 https://www.youtube.com/watch?v=-VekW3cHk_s
 
 Also tested on the LXDE for MisterFPGA and it works too.  
