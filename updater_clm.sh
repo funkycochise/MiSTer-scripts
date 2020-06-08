@@ -17,7 +17,7 @@ echo "Downloading..."
 # if you use this script on FPGA - LXDE
 
 echo " -----------------------------------"
-echo -e " Update file on FPGA... \c"
+echo -e " Update file on DE10... \c"
 if [ "$(uname -n)" != "DE10_NANO" ]; then
 		echo -e "\033[1;31mnot possible\033[0m"
 			echo -e "\n This option is only available under LXDE on the MiSTer FPGA."
@@ -25,9 +25,9 @@ if [ "$(uname -n)" != "DE10_NANO" ]; then
 		exit 1
         else 
 	echo "done"
-	cp -v "$HOME/MiSTer/MiSTer" /media/fat/
+	echo -en "Copy... "; cp -v "$HOME/MiSTer/MiSTer" /media/fat/
+	
 fi
-echo -e " -----------------------------------"
 echo ""
 
 exit 0
