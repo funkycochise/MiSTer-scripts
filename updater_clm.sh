@@ -20,10 +20,10 @@ echo -e "Update file on FPGA... \c"
 if [ "$(uname -n)" != "MiSTer" ]; then
 		echo "not possible"
 			echo -e "\n This option is only available under LXDE on the MiSTer FPGA."
-			echo -e " Update MiSTer manually USB or LAN"
+			echo -e " Copy MiSTer (file) on your SD Card /media/fat/ or upload \n"
 		exit 1
         else 
 	cp -v "$HOME/MiSTer/MiSTer" /media/fat/
 fi
-echo ""
+
 exit 0
