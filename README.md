@@ -35,6 +35,7 @@ https://github.com/MiSTer-devel/Main_MiSTer/wiki/Desktop-Linux
 Also tested on the LXDE for MisterFPGA and it works too.  
 If you want to compile from your Mister with LXDE, the MiSTer file will be updated directly on the SD Card.   
 
+Launch package updates and install curl, git, pv  
   `apt update && apt install -y curl pv git`
 
 ## Using a cross compiler on a Linux system  
@@ -45,7 +46,7 @@ Change directory to /opt/ and download the binaries
   
 `wget -c https://releases.linaro.org/components/toolchain/binaries/6.5-2018.12/arm-linux-gnueabihf/gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabihf.tar.xz`  
 
-Unpack *(it takes a few minutes on DE10_NANO)*  
+Unpack *(it takes a few minutes on DE10_NANO - go out for coffee and even walk the dog.)*  
 `tar xf gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabihf.tar.xz`   
 
 Add to your path.  
@@ -54,6 +55,7 @@ Add to your path.
 Run script  
 `./updater_clm.sh`  
 about 4 min to make on DE10_NANO  
-  
+reboot your mister.  
+
  Enjoy :)
 
