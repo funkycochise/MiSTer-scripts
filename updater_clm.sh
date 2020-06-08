@@ -18,7 +18,7 @@ echo "Downloading..."
 
 echo " -----------------------------------"
 echo -e " Update file on FPGA... \c"
-if [ "$(uname -n)" != "MiSTer" ]; then
+if [ "$(uname -n)" != "DE10_NANO" ]; then
 		echo -e "\033[1;31mnot possible\033[0m"
 			echo -e "\n This option is only available under LXDE on the MiSTer FPGA."
 			echo -e " Copy MiSTer (file) on your SD Card /media/fat/ or upload." 
