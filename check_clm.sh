@@ -16,4 +16,12 @@ echo "Downloading..."
 	
 echo "Done!"
 
+# Fill in the IP address of your FPGA in the variable $FPGA_IP and uncomment the lines if you want to copy with SCP
+FPGA_IP="192.168.0.69" # change with by your fpga IP
+#echo -e "\n  Update... \c"
+#    echo "Copy new MiSTer file by SCP password: 1"
+#    scp $HOME/MiSTer/MiSTer root@"$FPGA_IP:/media/fat
+#echo "done."
+#sleep 3
+
 exit 0
