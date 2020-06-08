@@ -19,12 +19,12 @@ echo "Downloading..."
 echo " -----------------------------------"
 echo -e " Update file on FPGA... \c"
 if [ "$(uname -n)" != "MiSTer" ]; then
-		echo "not possible"
+		echo -e "\033[1;31mnot possible\033[0m"
 			echo -e "\n This option is only available under LXDE on the MiSTer FPGA."
 			echo -e " Copy MiSTer (file) on your SD Card /media/fat/ or upload." 
 		exit 1
         else 
-	echo "done"
+	echo -e "\033[1;32mdone\033[0m"
 	cp -v "$HOME/MiSTer/MiSTer" /media/fat/
 fi
 echo -e " -----------------------------------\n"
