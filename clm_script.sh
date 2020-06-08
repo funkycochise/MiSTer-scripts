@@ -14,7 +14,7 @@ OPTION3="color.png"
 OPTION4="japan.png"
 
 # others 
-VERSION="1.0.7"
+VERSION="1.0.8"
 # code start here
 clear
 
@@ -24,7 +24,7 @@ echo -e "Change Logo Mister - Simplify v$VERSION \n"
 echo -e "Delete old files  ... \c"
     rm -rf "${MISTER_PATH}Main_MiSter/"
     rm -f "${MISTER_PATH}MiSTer"
-    echo -e "\033[1;32mdone\033[0m"
+    echo "done"
  
 options=("$OPTION1" "$OPTION2" "$OPTION3" "$OPTION4")
 for p in "${options[@]}" 
@@ -38,7 +38,7 @@ echo -e "MiSTer/$p ... \c"
 	    echo "not found"
         fi
     else
-	echo -e "\033[1;32mdone\033[0m"
+	echo "done"
     fi
 done
 
@@ -58,25 +58,25 @@ function nologo {
     echo ""
     echo -e "Copy $opt... \c"
     	cp "${MISTER_PATH}$opt" "${MISTER_PATH}Main_MiSter/logo.png"
-    echo -e "\033[1;32mdone\033[0m"
+    echo "done"
 }
 function mylogo {
     echo ""
     echo -e "Copy $opt... \c"
     	cp "${MISTER_PATH}$opt" "${MISTER_PATH}Main_MiSter/logo.png"
-    echo -e "\033[1;32mdone\033[0m"   
+    echo "done" 
 }
 function color {
     echo ""
     echo -e "Copy $opt... \c"
     	cp "${MISTER_PATH}$opt" "${MISTER_PATH}Main_MiSter/logo.png"
-    echo -e "\033[1;32mdone\033[0m"
+    echo "done"
 }
 function japan {
     echo ""
     echo -e "Copy $opt... \c"
     	cp "${MISTER_PATH}$opt" "${MISTER_PATH}Main_MiSter/logo.png"
-    echo -e "\033[1;32mdone\033[0m"
+    echo "done"
 }
 
 PS3='Please enter your choice: '
@@ -114,5 +114,5 @@ cd "${MISTER_PATH}Main_MiSter/" && make -i | pv -tr >/dev/null
 #move mister_file to mister_path
 echo -e "\nCopy MiSTer (file) to $MISTER_PATH... \c"
 	cp "${MISTER_PATH}Main_MiSter/MiSTer" "$MISTER_PATH"
-echo -e "\033[1;32mdone\033[0m"
+echo "done"
 exit 0
