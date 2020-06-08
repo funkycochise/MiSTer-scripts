@@ -35,7 +35,7 @@ https://github.com/MiSTer-devel/Main_MiSTer/wiki/Desktop-Linux
 Also tested on the LXDE for MisterFPGA and it works too.  
 If you want to compile from your Mister with LXDE, the MiSTer file will be updated directly on the SD Card.   
 
-  `apt install curl pv git`
+  `apt update && apt install -y curl pv git`
 
 ## Using a cross compiler on a Linux system  
 *source: https://github.com/MiSTer-devel/Main_MiSTer/wiki/ARM-cross-compiling#using-a-cross-compiler-on-a-linux-system*  
