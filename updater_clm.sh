@@ -16,13 +16,13 @@ echo "Downloading..."
 	
 # if you use this script on FPGA - LXDE
 
+echo -e "Update file on FPGA ...\c"
 if [ "$(uname -n)" != "MiSTer" ]; then
-		echo "This option is only"
-		echo "on a MiSTer system."
+		echo -e "\n This option is only available on Mister"
+		echo -e "\n Update MiSTer manually USB or LAN"
 		exit 1
         else 
-	echo -en "Update file on FPGA ...";cp -v "$HOME/MiSTer/MiSTer" /media/fat/
-
+	cp -v "$HOME/MiSTer/MiSTer" /media/fat/
 fi
 
 exit 0
