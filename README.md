@@ -29,20 +29,7 @@ https://youtu.be/L4d5K-uX-3M
     it is much easier to use nologo and to integrate one into the creation of your each wallpapers.  
  
 Also tested on the LXDE for MisterFPGA and it works too.  
-If you want to compile from your Mister from LXDE, the MiSTer file will be updated directly on the SD Card.  
-`echo " -----------------------------------"  
-echo -e " Update file on FPGA... \c"  
-if [ "$(uname -n)" != "MiSTer" ]; then  
-		echo -e "\033[1;31mnot possible\033[0m"  
-			echo -e "\n This option is only available under LXDE on the MiSTer FPGA."  
-			echo -e " Copy MiSTer (file) on your SD Card /media/fat/ or upload."   
-		exit 1  
-        else   
-	echo "done"  
-	cp -v "$HOME/MiSTer/MiSTer" /media/fat/  
-fi  
-echo -e " -----------------------------------"`    
-  
+If you want to compile from your Mister with LXDE, the MiSTer file will be updated directly on the SD Card.  
  
  Enjoy :)
 
