@@ -14,7 +14,7 @@ OPTION3="color.png"
 OPTION4="japan.png"
 
 # others 
-VERSION="1.0.4"
+VERSION="1.0.5"
 
 # code start here
 clear
@@ -63,15 +63,21 @@ function nologo {
 }
 function mylogo {
     echo ""
-    echo -en "Copy ...";cp -v "${MISTER_PATH}$opt" "${MISTER_PATH}Main_MiSter/logo.png"      
+    echo -e "Copy $opt... \c"
+    	cp "${MISTER_PATH}$opt" "${MISTER_PATH}Main_MiSter/logo.png"
+    echo "done"   
 }
 function color {
     echo ""
-    echo -en "Copy ...";cp -v "${MISTER_PATH}$opt" "${MISTER_PATH}Main_MiSter/logo.png"      
+    echo -e "Copy $opt... \c"
+    	cp "${MISTER_PATH}$opt" "${MISTER_PATH}Main_MiSter/logo.png"
+    echo "done"
 }
 function japan {
     echo ""
-    echo -en "Copy ...";cp -v "${MISTER_PATH}$opt" "${MISTER_PATH}Main_MiSter/logo.png"      
+    echo -e "Copy $opt... \c"
+    	cp "${MISTER_PATH}$opt" "${MISTER_PATH}Main_MiSter/logo.png"
+    echo "done"
 }
 
 PS3='Please enter your choice: '
@@ -107,6 +113,7 @@ echo ""
 cd "${MISTER_PATH}Main_MiSter/" && make -i | pv -tr >/dev/null
 
 #move mister_file to mister_path
-echo -en "Copy ...";cp -v "${MISTER_PATH}Main_MiSter/MiSTer" "$MISTER_PATH"
-echo ""
+echo -e "Copy MiSTer (file) at $HOME... \c"
+	cp "${MISTER_PATH}Main_MiSter/MiSTer" "$HOME"
+echo "done"
 exit 0
