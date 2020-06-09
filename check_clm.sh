@@ -20,7 +20,7 @@ echo "Done!"
 FPGA_IP="192.168.0.69" # change with by your fpga IP
 #echo -e "\n  Update... \c"
 #    echo "Copy new MiSTer file by SCP password: 1"
-#    scp $HOME/MiSTer/MiSTer root@"$FPGA_IP:/media/fat
+#    scp $HOME/MiSTer/MiSTer root@"$FPGA_IP":/media/fat
 #echo "done."
 #sleep 3 
 
