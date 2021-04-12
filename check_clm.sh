@@ -3,7 +3,7 @@
 # variable
 URL="https://github.com"
 SCRIPT_SH="updater_clm.sh"
-SCRIPT_URL="$URL/nakuakaben/MiSTer-scripts/raw/master/$SCRIPT_SH"
+SCRIPT_URL="$URL/funkycochise/MiSTer-scripts/raw/master/$SCRIPT_SH"
 
 # code start here
 clear
