@@ -2,10 +2,10 @@
 
 # option
 URL="https://github.com"
-GET_PNG="$URL/nakuakaben/MiSTer-scripts/raw/master/MiSTer/"
+GET_PNG="$URL/funkycochise/MiSTer-scripts/raw/master/MiSTer/"
 MISTER_PATH="$HOME/MiSTer/"
 
-MISTER_URL="$URL/MiSTer-devel/"
+MISTER_URL="$URL/funkycochise/"
 
 # logo
 OPTION1="nologo.png"
