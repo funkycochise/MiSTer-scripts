@@ -51,8 +51,9 @@ echo ""
 
 # choose nologo, mylogo or keep
 
-echo ""
-echo "Do you want to change the logo displayed on the screen ?"
+#echo ""
+#echo "Do you want to change the logo displayed on the screen ?"
+opt=5
 
 function nologo {
     echo ""
@@ -79,33 +80,33 @@ function japan {
     echo "done"
 }
 
-PS3='Please enter your choice: '
-options=("$OPTION1" "$OPTION2" "$OPTION3" "$OPTION4" "Keep")
-select opt in "${options[@]}"
-do
-    case $opt in
-        "$OPTION1")
-            nologo 
-            break
-            ;;
-        "$OPTION2")
-            mylogo
-            break
-            ;;
-        "$OPTION3")
-            color
-            break
-            ;;
-        "$OPTION4")
-            japan
-            break
-            ;;
-        "Keep")
-            break
-            ;;
-        *) echo -e "\n No Way, please select: \n 1) $OPTION1 \n 2) $OPTION2 \n 3) $OPTION3 \n 4) $OPTION4 \n 5) Keep \n";;
-    esac
-done
+#PS3='Please enter your choice: '
+##options=("$OPTION1" "$OPTION2" "$OPTION3" "$OPTION4" "Keep")
+#select opt in "${options[@]}"
+#do
+#    case $opt in#
+#        "$OPTION1")
+#            nologo 
+#            break
+#            ;;
+#        "$OPTION2")
+#            mylogo
+#            break
+#            ;;
+#        "$OPTION3")
+#            color
+#            break
+#            ;;
+#        "$OPTION4")
+#            japan
+#            break
+#            ;;
+#        "Keep")
+#            break
+#            ;;
+#        *) echo -e "\n No Way, please select: \n 1) $OPTION1 \n 2) $OPTION2 \n 3) $OPTION3 \n 4) $OPTION4 \n 5) Keep \n";;
+#    esac
+#done
 
 # complile
 echo ""
